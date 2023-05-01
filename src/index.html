@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page title</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  </head>
+  <body>
+    <header>
+      <form class="search-form" id="search-form">
+        <input
+        type="text"
+        name="searchQuery"
+        autocomplete="off"
+        placeholder="Search images..."
+        />
+        <button type="submit"><i class='bx bx-search'></i></button>
+      </form>
+    </header>
+    <main>
+      <div class="gallery">
+      </div>
+      <div class="container-button">
+        <button type="button" class="load-more js-load-btn">Load more</button>
+      </div>
+    </main>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
